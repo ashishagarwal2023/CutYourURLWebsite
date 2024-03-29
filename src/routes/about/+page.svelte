@@ -66,11 +66,26 @@
                     <p class="text-base sm:text-lg md:text-xl mt-4">
                         We also believe in the spirit of open-source software. By releasing CutYourURL as an open-source project, we encourage collaboration and innovation within the developer community. Together, we can build a better URL shortening solution that meets the diverse needs of users worldwide.
                     </p>
+                    <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold mt-8">
+                        Is it really <span class="highlight free poppins">better</span>?
+                    </h3>
+                    <p class="text-base sm:text-lg md:text-xl mt-4">
+                        Well, it depends. We are constantly improving it, and we are trying to make it better than bitly's. We are trying to make it feature-rich, and we are trying to make it user-friendly. We are trying to make it better than any other URL shortener out there.
+                    </p>
+                    <p class="text-base sm:text-lg md:text-xl mt-4">
+                        However, we are dependent on <span class="free">free services</span> like PythonAnywhere for hosting. We cannot gurantee 99% uptimes like bitly, but we are trying our best to make it better.<br><br>
+                        Althought this won't be going further without your support, we are happy to work for free, but we need your support to keep it running.
+                        <br><br>
+                        If you would like to, you can sponsor us on GitHub to keep this project running. You are also welcome to contribute with us!
+                    </p>
                     <div class="flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-10 py-3 lg:py-6 text-white text-left"></div>
                         <div class="flex flex-col lg:justify-center text-left gap-6 md:gap-8 lg:gap-10">
                             <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold mt-8">Contribute to <span class="free poppins">CutYourURL</span></h3>
                             <p class="text-base sm:text-lg md:text-xl mt-4">
                                 CutYourURL is an open-source project, and we welcome contributions from the community. If you're interested in improving the project, adding new features, or fixing bugs, we encourage you to contribute to the development of CutYourURL on GitHub.
+                            </p>
+                            <p class="text-base sm:text-lg md:text-xl mt-4">
+                                By contributing to CutYourURL, you'll be helping to make the project better for everyone. Whether you're a developer, designer, or just someone who wants to help out, there are many ways to get involved. You can submit bug reports, suggest new features, or even submit code changes to the project.
                             </p>
                             <a
                                 class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-all bg-white text-slate-950 cursor-pointer rounded-full"

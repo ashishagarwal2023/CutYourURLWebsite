@@ -146,7 +146,7 @@
 		<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-center">
 			Not enough?<br />
 			View
-			<a href="#" class="theme-400 hover:theme-500 duration-100"
+			<a href="/features" class="theme-400 hover:theme-500 duration-100"
 				>all features</a>!
 		</h3>
 	</section>
