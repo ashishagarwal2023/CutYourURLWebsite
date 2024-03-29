@@ -66,7 +66,7 @@
 
 <main class="flex flex-col flex-1 p-4">
 	<section
-		id="introPage"
+		id="home"
 		class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14"
 	>
 		<div
@@ -99,9 +99,10 @@
 		</div>
 		<div class="relative shadow-2xl grid place-items-center">
 			<img
-				src={"images/show.png"}
+				src={"images/laptop.png"}
 				alt="CutYourURL URL Shortener"
 				class="object-cover z-[2] max-h-[70vh] rounded-lg"
+				style="transform: scaleX(-1);"
 			/>
 		</div>
 	</section>
@@ -150,7 +151,7 @@
 		</h3>
 	</section>
 	<section
-		id="about"
+		id="compare"
 		class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
 	>
 			<h5 class={"text-2xl sm:text-3xl font-semibold text-center poppins"}>
@@ -188,8 +189,8 @@
 								>Fast Redirects</td
 							>
 							<td>Only in Paid</td>
-							<td>Not avaiable</td>
-							<td>Not avaiable</td>
+							<td>Not available</td>
+							<td>Not available</td>
 							<td class="text-green-500">Free and always</td>
 						</tr>
 						<tr>
