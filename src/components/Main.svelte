@@ -73,14 +73,14 @@
 			class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
 		>
 			<h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-				Meet <span class="poppins text-orange-400">CutYourURL </span>
-				<span class="poppins text-orange-400">URL Shortener</span>
+				Meet <span class="poppins theme-400">CutYourURL </span><br>
+				<span class="poppins theme-400">URL Shortener</span>
 				<br /><span class="text-3xl sm:text-4xl md:text-5xl"
 					>Free. Open-source. Powerful</span
 				>
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
-				Fully-fledged <span class="text-orange-400 poppins"
+				Fully-fledged <span class="theme-400 poppins"
 					>Bitly URL Shortener</span
 				> Clone. Give it a try!
 			</p>
@@ -90,9 +90,9 @@
 				target="_blank"
 			>
 				<div
-					class="absolute top-0 right-full w-full h-full bg-orange-400 opacity-50 group-hover:translate-x-full z-0 duration-200"
+					class="absolute top-0 right-full w-full h-full bg-400 opacity-50 group-hover:translate-x-full z-0 duration-200"
 				/>
-				<h4 class="relative z-9 arrow-button hover:text-orange-900">
+				<h4 class="relative z-9 arrow-button hover:theme-900">
 					Try it out! <i class="fa-solid fa-arrow-right px-1"></i>
 				</h4>
 			</a>
@@ -109,16 +109,16 @@
 	<section id="features" class="py-20 lg:py-32 flex flex-col gap-24">
 		<div class="flex flex-col gap-2 text-center">
 			<h6 class="text-lg sm:text-xl md:text-2xl">
-				Curious to <span class="poppins text-orange-400">know</span> more?
+				Curious to <span class="poppins theme-400">know</span> more?
 			</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				The <span class="poppins text-orange-400">Features</span> of CutYourURL
+				The <span class="poppins theme-400">Features</span> of CutYourURL
 			</h3>
 		</div>
 		<a
 			href="#"
 			target="_blank"
-			class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-orange-700 hover:bg-orange-400 hover:text-white duration-200"
+			class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-theme-700 hover:bg-400 hover:text-white duration-200"
 		>
 			<i class="fa-regular fa-circle-play" />
 			<p>Watch the video</p>
@@ -126,14 +126,14 @@
 		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
 			{#each features as feature}
 				<div
-					class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-orange-700 text-center cursor-pointer group hover:border-orange-400 duration-200"
+					class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-solid border-theme-700 text-center cursor-pointer group hover:border-theme-400 duration-200"
 				>
 					<div
-						class="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
+						class="free grid place-items-center px-4 text-5xl md:text-6xl -mt-10 sm:-mt-12 md:-mt-14 lg:-mt-16 mx-auto duration-200"
 					>
 						<i
 							class={feature.icon +
-								" text-orange-500 text-5xl py-1 bg-slate-950"}
+								" theme-400 text-5xl py-1 bg-slate-950"}
 						/>
 						<h3 class="font-medium text-xl sm:text-2xl md:text-3xl">
 							{feature.name}
@@ -146,7 +146,7 @@
 		<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-center">
 			Not enough?<br />
 			View
-			<a href="#" class="text-orange-400 hover:text-orange-500 duration-100"
+			<a href="#" class="theme-400 hover:theme-500 duration-100"
 				>all features</a>!
 		</h3>
 	</section>
@@ -155,7 +155,7 @@
 		class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
 	>
 			<h5 class={"text-2xl sm:text-3xl font-semibold text-center poppins"}>
-				It builds a <span class="text-orange-400">difference!</span>
+				It builds a <span class="theme-400">difference!</span>
 			</h5>
 			<div
 				class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
@@ -167,7 +167,7 @@
 							<th class="whitespace-nowrap p-2 px-4">Bitly</th>
 							<th class="whitespace-nowrap p-2 px-4">TinyURL</th>
 							<th class="whitespace-nowrap p-2 px-4">Rebrandly</th>
-							<th class="bg-orange-700 text-white whitespace-nowrap p-4 px-8"
+							<th class="bg-700 text-white whitespace-nowrap p-4 px-8"
 								>CutYourURL</th
 							>
 						</tr>
@@ -219,7 +219,7 @@
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl text-center">
 			That's too few?<br />
 			See the 
-			<a href="#" class="text-orange-400 hover:text-orange-500 duration-100"
+			<a href="#" class="theme-400 hover:theme-500 duration-100"
 				>comparing list</a>!
 		</h3>
 			<div class="mx-auto -mt-12 italic sm:hidden opacity-50">

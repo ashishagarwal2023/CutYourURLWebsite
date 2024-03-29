@@ -1,7 +1,8 @@
 <script>
     let links = [
+        { label: 'Home', url: '/' },
         { label: 'About', url: '/about' },
-        { label: 'Blog', url: '/blog' },
+        // { label: 'Blog', url: '/blog' },
         { label: 'Features', url: '/features' },
         { label: 'FAQ', url: '/faq' },
         { label: 'Help', url: '/help' },

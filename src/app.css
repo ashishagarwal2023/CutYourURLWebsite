@@ -43,3 +43,36 @@ h3,
 .arrow-button:hover i {
 	transform: translateX(3px);
 }
+
+@layer utilities {
+	.highlight{
+		@apply poppins theme-400;
+	}
+    .free {
+        @apply bg-gradient-to-r from-orange-400 via-yellow-500 to-orange-500 bg-clip-text text-transparent;
+    }
+	.premium {
+		@apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent;
+	}
+	.theme-400{
+		@apply text-orange-400;
+	}
+	.theme-500{
+		@apply text-orange-500;
+	}
+	.theme-900{
+		@apply text-orange-900;
+	}
+	.bg-400{
+		@apply bg-orange-400
+	}
+	.bg-700{
+		@apply bg-orange-700;
+	}
+	.border-theme-400{
+		@apply border-orange-400;
+	}
+	.border-theme-700{
+		@apply border-orange-700;
+	}
+}
