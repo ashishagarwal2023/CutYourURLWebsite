@@ -3,51 +3,51 @@
 		{
 			name: "Custom Short Links",
 			icon: "fa-solid fa-link",
-			description: "Generate custom short links to not be unknown!",
+			description: "Generate custom ID in shorts so it appears cool",
 		},
 		{
 			name: "reCAPTCHA",
 			icon: "fa-solid fa-shield",
 			description:
-				"Protect your links with reCAPTCHA to prevent spam and abuse.",
+				"Protect your links with reCAPTCHA to prevent spam and abuse",
 		},
 		{
 			name: "Visibility and Tracking",
 			icon: "fa-solid fa-eye",
 			description:
-				"Make your link public and get it listed in the recent ones, or choose private. Track your visitors and not get lost!",
+				"Have some free visitors when your link is public and visible on the main page",
 		},
 		{
 			name: "QR Codes",
 			icon: "fa-solid fa-qrcode",
 			description:
-				"Short Links too short? We've got QR codes for every of you!",
+				"Automatically-generated QR codes for every of your links",
 		},
 		{
 			name: "Expiry",
 			icon: "fa-solid fa-trash",
 			description:
-				"Are your links important to you? Automatically delete them without worrying. At a specific time, or a limited clicks?",
+				"Are your links important to you? Choose to delete them automatically at specific clicks or time!",
 		},
 		{
 			name: "Accounts",
 			icon: "fa-solid fa-user",
-			description: "We've got you accounts with vertification to keep your links safe and secure!",
+			description: "Accounts that provide you with more features and control over your links",
 		},
         {
-            name: "Recent Generated",
+            name: "Recents Generated",
             icon: "fa-solid fa-clock-rotate-left",
-            description: "View the most recent generated links by the community! Hide yourself by making it private!",
+            description: "View the most recent generated links by the community or hide yours by making it private",
         },
         {
             name: "Unlimited",
             icon: "fa-solid fa-border-all",
-            description: "Generate unlimited links without any restrictions! Everything we provide has no limits!",
+            description: "Everything we've provided is unlimited. No limits, no restrictions, no hidden fees and for free.",
         },
        	{
 			name: "Coming soon",
 			icon: "fa-solid fa-ellipsis",
-			description: "What's not coming is unindentical, but more features are coming soon! Dashboard, API, Browser Extensions, better security, and more! Stay tuned!",
+			description: "Very soon we would have a dashboard, API, browser extension, and a lot more we don't know",
 		},
 	];
 </script>
