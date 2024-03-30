@@ -80,8 +80,8 @@
         Meet <span class="poppins theme-400">CutYourURL </span><br />
         <span class="poppins theme-400">URL Shortener</span>
         <br /><span class="text-3xl sm:text-4xl md:text-5xl"
-          >Free. Open-source. Powerful</span
-        >
+          ><span class="premium">Free. Open-source. Powerful</span>
+        </span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         Fully-fledged <span class="theme-400 poppins">Bitly URL Shortener</span>
@@ -192,7 +192,7 @@
             <td>Only in Paid</td>
             <td>Not available</td>
             <td>Not available</td>
-            <td class="text-green-500">Free and always</td>
+            <td class="text-green-500">All in Free</td>
           </tr>
           <tr>
             <td

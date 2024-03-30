@@ -49,7 +49,7 @@ h3,
 		@apply poppins theme-400;
 	}
     .free {
-        @apply bg-gradient-to-r from-orange-400 via-yellow-500 to-orange-500 bg-clip-text text-transparent;
+        @apply bg-gradient-to-r from-orange-400 via-orange-500 to-orange-500 bg-clip-text text-transparent;
     }
 	.premium {
 		@apply bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 bg-clip-text text-transparent;
@@ -75,4 +75,42 @@ h3,
 	.border-theme-700{
 		@apply border-orange-700;
 	}
+}
+  .accordion {
+  	background-color: #1f2937;
+  	border-radius: 0.5rem;
+  	overflow: hidden;
+  	transition: background-color 0.3s ease;
+  }
+
+  .accordion-title {
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 1rem;
+  	cursor: pointer;
+  	transition: background-color 0.3s ease;
+  	background-color: #111827;
+  }
+
+  .accordion-title:hover {
+  	background-color: #4b5563;
+  }
+
+  .accordion-title .fas {
+  	transition: transform 0.3s ease;
+  }
+
+  .accordion-content {
+  	padding: 1rem;
+  	display: none;
+  	transition: max-height 0.3s ease;
+  }
+
+  .accordion-content.show {
+  	display: block;
+  	max-height: 1000px;
+  	transition: max-height 0.3s ease;
+  }.accordion-content {
+	transition: max-height 0.3s ease-out, padding 0.3s ease;
 }
