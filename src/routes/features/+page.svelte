@@ -55,6 +55,10 @@
   ];
 </script>
 
+<svelte:head>
+  <title>CutYourURL - Features</title>
+</svelte:head>
+
 <main class="flex flex-col flex-1 p-4">
   <section id="features" class="py-20 slg:py-32 flex flex-col gap-24">
     <div class="flex flex-col gap-2 text-center">
