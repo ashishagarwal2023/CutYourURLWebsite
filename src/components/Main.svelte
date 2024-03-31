@@ -99,7 +99,7 @@
           Try it out! <i class="fa-solid fa-arrow-right px-1"></i>
         </h4>
       </a>
-      <p class="text-white-400 text-xl lg:text-3xl font-bold">Created by <span class="poppins">Ashish Agarwal</span></p>
+      <p class="text-white-400 text-lg lg:text-2lg">Created by <span class="text-blue-200">Ashish Agarwal</span></p>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
       <img
